@@ -1,0 +1,94 @@
+  /* General Body Styling */
+  body {
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header Styling */
+header {
+    background-color: #7f1d1d;
+    color: #f7f1e3;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffd700;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #ffd700;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffd700;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #f7f1e3;
+}
+
+/* Home Section Styling */
+#home {
+    background-color: #7f1d1d;
+    color: #f7f1e3;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+#home h2 {
+    font-size: 2rem;
+    color: #ffd700;
+}
+
+/* Carousel Styling */
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-caption h3 {
+    color: #ffd700;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #7f1d1d;
+    color: #f7f1e3;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}

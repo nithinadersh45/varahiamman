@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varahi Temple - Home</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Body Styling */
+        body {
+            background: linear-gradient(135deg, #e8cbc0, #636fa4);
+            color: #333;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #7f1d1d;
+            color: #f7f1e3;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #ffd700;
+            font-family: 'Georgia', serif;
+        }
+
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 2px solid #ffd700;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffd700;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: #f7f1e3;
+            text-decoration: underline;
+        }
+
+        /* Home Section Styling */
+        #home {
+            background-color: rgba(255, 255, 255, 0.9);
+            color: #333;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 900px;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #home h2 {
+            font-size: 2rem;
+            color: #7f1d1d;
+            font-family: 'Georgia', serif;
+        }
+
+        #home p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            font-family: 'Verdana', sans-serif;
+        }
+
+        /* Carousel Styling */
+        .carousel-item img {
+            height: 500px;
+            object-fit: cover;
+            filter: brightness(70%);
+        }
+
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .carousel-caption h3 {
+            color: #ffd700;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #7f1d1d;
+            color: #f7f1e3;
+            padding: 20px;
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png.jpeg" alt="Temple Logo" class="logo">
+        <h1>Welcome to Varahi Amman Temple</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="container">
+        <h2>Home</h2>
+        <p>Our temple provides a peaceful and spiritually uplifting environment, ideal for devotees who wish to offer their prayers and seek divine grace. Each ritual is performed meticulously by skilled priests, honoring the ancient traditions and fostering a space for devotion, meditation, and spiritual growth.</p>
+        <p>We invite all devotees to be part of these sacred rituals, connect with the divine energies of Goddess Varahi, and experience the transformative power of worship.</p>
+
+        <!-- Carousel Section -->
+        <div id="templeCarousel" class="carousel slide mt-4" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#templeCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#templeCarousel" data-slide-to="1"></li>
+                <li data-target="#templeCarousel" data-slide-to="2"></li>
+            </ul>
+
+            <!-- Carousel Images -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/temple1.jpg" alt="Kovil Kumbabishekam" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>Kovil Kumbabishekam Image</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/temple2.jpg" alt="Temple Image 2" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>Kovil Kumbabishekam Image</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/temple4.jpeg" alt="Temple Image 3" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>Goddess Varahi</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Controls -->
+            <a class="carousel-control-prev" href="#templeCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#templeCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shri Nava Varahi Amman Arutpani Trust, Tiruchirappalli</p>
+    </footer>
+
+    <!-- Bootstrap and jQuery JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
